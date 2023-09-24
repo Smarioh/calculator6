@@ -148,7 +148,7 @@ class MainActivity : AppCompatActivity() {
                     .evaluate()
                 num1.setText(result.toString())
             } catch (e: Exception) {
-                Toast.makeText(this, "Error, illegal expression", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Error, illegal expression.", Toast.LENGTH_LONG).show()
             }
 
         }
